@@ -1,0 +1,85 @@
+ [
+    {
+        "id": "1",
+        "icon": "dashboard",
+        "name": "系统菜单",
+        "route": "/dashboard"
+    },
+    {
+        "id": "2",
+        "bpid": "1",
+        "name": "用户信息",
+        "icon": "user",
+        "route": "/user"
+    },
+      {
+        "id": "7",
+        "bpid": "1",
+        "name": "Posts",
+        "icon": "shopping-cart",
+        "route": "/post"
+      },
+
+
+      {
+        "id": "21",
+        "mpid": "-1",
+        "bpid": "2",
+        "name": "用户详情",
+        "route": "/user/:id"
+      },
+        {
+        "id": "9",
+        "bpid": "1",
+        "icon": "shopping-cart",
+        "name": "数据中心",
+        "route": "/transaction"
+      },
+      {
+        "id": "10",
+        "bpid": "1",
+         "mpid": "9",
+        "icon": "shopping-cart",
+        "name": "资金流水",
+        "route": "/transaction/daytransaction"
+      },
+      {
+        "id": "11",
+        "bpid": "1",
+         "mpid": "9",
+        "icon": "shopping-cart",
+        "name": "11",
+        "route": "/transaction/historicaltransaction"
+      },
+      {
+        "id": "12",
+        "bpid": "1",
+        "icon": "shopping-cart",
+        "name": "充值管理",
+        "route": "/recharge"
+      },
+      {
+        "id" :"13",
+        "bpid": "1",
+        "icon":"shopping-cart",
+        "name" : "系统配置",
+        "route": "/systemconfig/"
+      },
+      {
+        "id" :"14",
+        "bpid": "1",
+        "mpid": "13",
+        "icon":"shopping-cart",
+        "name" : "公共配置",
+        "route": "/systemconfig/commonmanage"
+      },
+      {
+        "id" :"15",
+        "bpid": "1",
+        "mpid": "13",
+        "icon":"shopping-cart",
+        "name" : "健身房管理",
+        "route": "/systemconfig/gymmanage"
+      }
+ ]
+  
